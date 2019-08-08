@@ -69,7 +69,7 @@ public class Question2 {
 		calendar.setTime(now);
 		int a = calendar.get(Calendar.DAY_OF_WEEK);
 		System.out.println("Operating Hours on");
-		a=7;
+		
 		switch (a) {
 		case 1:
 			System.out.println("Sunday");
